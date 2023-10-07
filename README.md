@@ -1,9 +1,29 @@
-# SDOH_Asthma
-Scripts used for the poster on "Impacrt of Social Determinants of Health (SDOH) on Severe Asthma Patients: A Population-based Study".
+# SDOH_Asthma: A Population-based Study on Severe Asthma Patients
 
-The repository contains two subfolders:
-- r_script: contains the scripts used sequentially to (i) construct longitudinal data for all patients with available severe exacerbation criteria, visit details and patient demographics/medical history (codes #01 and #02); (ii) matching non-severe patient to severe patient in 1:1 ratio based on gender, race, GINA and last visit dates (code #03); (iii) wrangling of 2015 household survey and 2020 census data (SLA OneMap) to fit into 28 postal districts; (iv) t-test of matched cohort (code #04); (v) matching of working data with social determinant data and running of logistic regression to examine impact of the SDOH on matched cohort.
+This repository hosts the scripts and related files used for the research poster titled "Impact of Social Determinants of Health (SDOH) on Severe Asthma Patients: A Population-based Study."
 
-- onemap: contains the script used for scraping OneMap data
+## Repository Structure
 
-- codes exclude examination of weather and air quality data
+The repository is organized into two main subfolders:
+
+### 1. `r_script`
+
+This folder contains R scripts executed in a sequential manner for various stages of data processing and analysis:
+
+- **Code #01 & #02**: Construct longitudinal data for all patients. This includes severe exacerbation criteria, visit details, and patient demographics/medical history.
+  
+- **Code #03**: Implement 1:1 matching of non-severe to severe asthma patients based on attributes like gender, race, GINA steps, and last visit dates.
+
+- **Code #04**: Wrangle 2015 household survey and 2020 census data (sourced from SLA OneMap) to fit into 28 postal districts.
+  
+- **Code #04**: Perform t-tests on the matched cohort to examine statistical differences between groups.
+
+- **Code #05**: Run logistic regression models to explore the impact of SDOH factors on the matched cohort.
+
+### 2. `Onemap`
+
+This folder houses the script specifically designed for scraping data from OneMap, which is crucial for the SDOH analysis.
+
+### Exclusions
+
+The repository currently does not include scripts for examining the impact of weather and air quality data on asthma patients.
