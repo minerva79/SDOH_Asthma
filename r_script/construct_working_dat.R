@@ -1,5 +1,5 @@
 ###########################################################################
-### Construct Exacerbation Longitudinal Data                            ###
+### Construct Working Data (Longitudinal)                               ###
 ### 2023-10-07 / Adam Quek (SingHealth)                                 ###
 ###########################################################################
 
