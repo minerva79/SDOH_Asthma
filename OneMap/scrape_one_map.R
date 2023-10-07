@@ -1,4 +1,4 @@
-token <- "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjkxNjEsInVzZXJfaWQiOjkxNjEsImVtYWlsIjoiYWRhbTI1MDk3OUBnbWFpbC5jb20iLCJmb3JldmVyIjpmYWxzZSwiaXNzIjoiaHR0cDpcL1wvb20yLmRmZS5vbmVtYXAuc2dcL2FwaVwvdjJcL3VzZXJcL3Nlc3Npb24iLCJpYXQiOjE2ODAzMzEzOTYsImV4cCI6MTY4MDc2MzM5NiwibmJmIjoxNjgwMzMxMzk2LCJqdGkiOiI0Zjg2MjVkY2JhOTVmODU3ZjczMjE3NGU0ODgyNGQ2MyJ9.gal_5Y9HxqGxDS0xOpnwN6tJIXNvO_vZY6TFNdc8yrI"
+token <- "YOUR_API_TOKEN"
 
 lib <- c("plyr", "tidyverse", "httr", "jsonlite")
 invisible(lapply(lib, require, character=TRUE))
