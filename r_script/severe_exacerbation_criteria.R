@@ -113,7 +113,6 @@ save_data(exac_2, "./int/cleaned_exac.rds")
 save_data(visits, "./int/cleaned_visits.rds")
 
 # Merging Data  --------------------------------------------------------
-
 # Unique patients in asthma cohort
 asthma_cohort <- unique(exac_2$pid)
 save_data(asthma_cohort, "./int/asthma_cohort.rds")
@@ -141,54 +140,3 @@ date_overlap_check <- ldply(asthma_cohort, check_date_overlap, exac_2, visits_re
 matched_data <- ldply(asthma_cohort, keep_data, exac_2, visits_reshaped)
 save_data(matched_data, "./int/exacerbation_matched_visit_cases.rds")
 save_data(matched_data, "./int/exacerbation_matched_visit_cases.csv", "csv")
-
-
-
-# Merge in visit number ---------------------------------------------------
-asthma_cohort <- exac_2 %>% arrange(pid)
-asthma_cohort <- asthma_cohort[, "pid"] %>% unlist %>% unique
-saveRDS(asthma_cohort, "./int/asthma_cohort.rds")
-
-visits <- visits[visits$Patient.ID %in% asthma_cohort, ]
-visits <- visits[, c("Patient.ID", "date", "LOS", "Institution.Code", "Case.Type.Description")] 
-visits$sgh <- ifelse(visits$Institution.Code == "SGH", 1, 0)
-visits$case_ae <- ifelse(visits$Case.Type.Description == "A&E", 1, 0)
-visits$case_ip <- ifelse(visits$Case.Type.Description == "Inpatient", 1, 0)
-visits$case_others <- ifelse(!visits$Case.Type.Description == "Inpatient" & 
-                               !visits$Case.Type.Description == "A&E", 1, 0)
-visits2 <- visits[, c("Patient.ID", "date", "LOS", "sgh", "case_ae", "case_ip", "case_others")]
-library(reshape2)
-melted_data <- melt(visits2, id.vars = c("Patient.ID", "date"), na.rm=TRUE)
-visits3 <- dcast(melted_data, Patient.ID + date ~ variable, fun.aggregate = function(x) sum(x, na.rm=TRUE))
-
-saveRDS(visits3, "./int/visit_asthma_cohort.rds")
-
-
-exac_2[exac_2$pid == asthma_cohort[3], ] %>% arrange(date)
-visits3[visits3$Patient.ID == asthma_cohort[3], ] %>% arrange(date)
-
-exac_dates <- exac_2[exac_2$pid == asthma_cohort[1], "date"] 
-visit_dates <- visits3[visits3$Patient.ID == asthma_cohort[1], "date"]
-any(exac_dates %in% visit_dates == FALSE)
-
-exac_dates <- exac_2[exac_2$pid == asthma_cohort[2], "date"] 
-visit_dates <- visits3[visits3$Patient.ID == asthma_cohort[2], "date"]
-any(exac_dates %in% visit_dates == FALSE)
-
-exac_dates <- exac_2[exac_2$pid == asthma_cohort[3], "date"] 
-visit_dates <- visits3[visits3$Patient.ID == asthma_cohort[3], "date"]
-any(exac_dates %in% visit_dates == FALSE)
-
-exac_dates <- exac_2[exac_2$pid == asthma_cohort[4], "date"] 
-visit_dates <- visits3[visits3$Patient.ID == asthma_cohort[4], "date"]
-any(exac_dates %in% visit_dates == FALSE)
-
-keep_data <- function(pid, exac_data, visit_data){
-  e101 <- exac_data[exac_data$pid == pid, ]
-  visit_date <- visit_data[visit_data$Patient.ID == pid, "date"]
-  e101[e101$date %in% visit_date, ]
-}
-
-output <- ldply(asthma_cohort, keep_data, exac_2, visits3)
-saveRDS(output, "./int/exacerbation_matched_visit_cases.rds")
-write.csv(output, "./int/exacerbation_matched_visit_cases.csv", row.names=FALSE)
