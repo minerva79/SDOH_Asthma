@@ -1,5 +1,5 @@
 ###########################################################################
-### Construct Longitudinal Dataset of Severe Exacerbation               ###
+### Construct Matched Severe Exacerbation to Visit Dataset              ###
 ### 2023-10-07 / Adam Quek (SingHealth)                                 ###
 ###########################################################################
 
