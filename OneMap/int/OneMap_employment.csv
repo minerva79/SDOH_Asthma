@@ -1,0 +1,221 @@
+planning_area,employed,unemployed,inactive,year,gender
+Ang Mo Kio,54900,2800,18400,2015,Male
+Bedok,82500,2800,29400,2015,Male
+Bishan,26400,900,8700,2015,Male
+Boon Lay,0,0,0,2015,Male
+Bukit Batok,41200,2100,14400,2015,Male
+Bukit Merah,43900,1800,17600,2015,Male
+Choa Chu Kang,52700,1600,17100,2015,Male
+Bukit Panjang,45300,2000,12400,2015,Male
+Jurong East,26300,1100,7900,2015,Male
+Queenstown,26700,900,11300,2015,Male
+Jurong West,89200,3300,23800,2015,Male
+Bukit Timah,19900,700,7100,2015,Male
+Central Water Catchment,0,0,0,2015,Male
+Changi,0,0,0,2015,Male
+Changi Bay,0,0,0,2015,Male
+Tengah,0,0,0,2015,Male
+Clementi,24800,700,9200,2015,Male
+Geylang,33400,1500,10400,2015,Male
+Hougang,63700,2500,22700,2015,Male
+Pioneer,0,0,0,2015,Male
+Punggol,33000,900,6200,2015,Male
+Seletar,0,0,0,2015,Male
+Sembawang,26000,800,5600,2015,Male
+Sengkang,67600,2200,16500,2015,Male
+Serangoon,35700,1500,14200,2015,Male
+Simpang,0,0,0,2015,Male
+Southern Islands,0,0,0,2015,Male
+Sungei Kadut,0,0,0,2015,Male
+Tampines,86200,3000,24700,2015,Male
+Tanglin,5000,0,1500,2015,Male
+Toa Payoh,35800,1600,14000,2015,Male
+Tuas,0,0,0,2015,Male
+Western Islands,0,0,0,2015,Male
+Western Water Catchment,0,0,0,2015,Male
+Woodlands,74600,2800,21600,2015,Male
+Yishun,63600,2200,18200,2015,Male
+Downtown Core,0,0,0,2015,Male
+Marina East,0,0,0,2015,Male
+Marina South,0,0,0,2015,Male
+Museum,0,0,0,2015,Male
+Newton,0,0,0,2015,Male
+Orchard,0,0,0,2015,Male
+Outram,6100,100,2300,2015,Male
+Kallang,29600,1500,9600,2015,Male
+Lim Chu Kang,0,0,0,2015,Male
+Mandai,0,0,0,2015,Male
+Marine Parade,10900,500,5200,2015,Male
+North-Eastern Islands,0,0,0,2015,Male
+Novena,13500,500,4400,2015,Male
+Pasir Ris,43500,1600,13600,2015,Male
+Paya Lebar,0,0,0,2015,Male
+River Valley,0,0,0,2015,Male
+Rochor,0,0,0,2015,Male
+Singapore River,0,0,0,2015,Male
+Straits View,0,0,0,2015,Male
+Ang Mo Kio,46300,1800,33000,2015,Female
+Bedok,67800,3200,50300,2015,Female
+Bishan,23100,900,16200,2015,Female
+Boon Lay,0,0,0,2015,Female
+Bukit Batok,34500,2000,26000,2015,Female
+Bukit Merah,38400,1500,29300,2015,Female
+Choa Chu Kang,44500,2200,31100,2015,Female
+Bukit Panjang,34800,1700,23500,2015,Female
+Jurong East,19800,900,14700,2015,Female
+Queenstown,22400,1300,19100,2015,Female
+Jurong West,69400,3100,46100,2015,Female
+Bukit Timah,16900,400,14000,2015,Female
+Central Water Catchment,0,0,0,2015,Female
+Changi,0,0,0,2015,Female
+Changi Bay,0,0,0,2015,Female
+Tengah,0,0,0,2015,Female
+Clementi,21200,600,16100,2015,Female
+Geylang,28000,800,18300,2015,Female
+Hougang,57100,1900,36700,2015,Female
+Pioneer,0,0,0,2015,Female
+Punggol,27500,900,14500,2015,Female
+Seletar,0,0,0,2015,Female
+Sembawang,21300,400,10900,2015,Female
+Sengkang,56700,2200,32700,2015,Female
+Serangoon,32600,1000,24400,2015,Female
+Simpang,0,0,0,2015,Female
+Southern Islands,0,0,0,2015,Female
+Sungei Kadut,0,0,0,2015,Female
+Tampines,66600,3700,47500,2015,Female
+Tanglin,4000,0,3800,2015,Female
+Toa Payoh,33100,1300,22100,2015,Female
+Tuas,0,0,0,2015,Female
+Western Islands,0,0,0,2015,Female
+Western Water Catchment,0,0,0,2015,Female
+Woodlands,60200,2500,40300,2015,Female
+Yishun,55700,1700,31000,2015,Female
+Downtown Core,0,0,0,2015,Female
+Marina East,0,0,0,2015,Female
+Marina South,0,0,0,2015,Female
+Museum,0,0,0,2015,Female
+Newton,0,0,0,2015,Female
+Orchard,0,0,0,2015,Female
+Outram,5600,100,3100,2015,Female
+Kallang,25800,1000,17300,2015,Female
+Lim Chu Kang,0,0,0,2015,Female
+Mandai,0,0,0,2015,Female
+Marine Parade,10600,300,8300,2015,Female
+North-Eastern Islands,0,0,0,2015,Female
+Novena,10300,200,8200,2015,Female
+Pasir Ris,34500,2100,24100,2015,Female
+Paya Lebar,0,0,0,2015,Female
+River Valley,0,0,0,2015,Female
+Rochor,0,0,0,2015,Female
+Singapore River,0,0,0,2015,Female
+Straits View,0,0,0,2015,Female
+Ang Mo Kio,45140,2722,19360,2020,Male
+Bedok,77137,4493,32010,2020,Male
+Bishan,24535,1460,10809,2020,Male
+Boon Lay,0,0,0,2020,Male
+Bukit Batok,48736,2809,15930,2020,Male
+Bukit Merah,40374,2899,17548,2020,Male
+Choa Chu Kang,60416,3235,19037,2020,Male
+Bukit Panjang,42111,2242,14151,2020,Male
+Jurong East,22730,1286,9474,2020,Male
+Queenstown,24501,1547,10502,2020,Male
+Jurong West,82560,4126,25772,2020,Male
+Bukit Timah,19534,904,8797,2020,Male
+Central Water Catchment,0,0,0,2020,Male
+Changi,0,0,0,2020,Male
+Changi Bay,0,0,0,2020,Male
+Tengah,0,0,0,2020,Male
+Clementi,25110,1546,10674,2020,Male
+Geylang,31940,1892,12251,2020,Male
+Hougang,65672,3701,24763,2020,Male
+Pioneer,0,0,0,2020,Male
+Punggol,50365,2447,11953,2020,Male
+Seletar,0,0,0,2020,Male
+Sembawang,31880,1874,8834,2020,Male
+Sengkang,76243,3701,19498,2020,Male
+Serangoon,33147,1885,13841,2020,Male
+Simpang,0,0,0,2020,Male
+Southern Islands,0,0,0,2020,Male
+Sungei Kadut,0,0,0,2020,Male
+Tampines,78768,4892,26425,2020,Male
+Tanglin,5482,202,2057,2020,Male
+Toa Payoh,31607,2128,14028,2020,Male
+Tuas,0,0,0,2020,Male
+Western Islands,0,0,0,2020,Male
+Western Water Catchment,0,0,0,2020,Male
+Woodlands,77451,4677,24645,2020,Male
+Yishun,66105,4371,20767,2020,Male
+Downtown Core,1024,35,245,2020,Male
+Marina East,0,0,0,2020,Male
+Marina South,0,0,0,2020,Male
+Museum,0,0,0,2020,Male
+Newton,0,0,0,2020,Male
+Orchard,0,0,0,2020,Male
+Outram,4938,399,2496,2020,Male
+Kallang,29056,1719,11975,2020,Male
+Lim Chu Kang,0,0,0,2020,Male
+Mandai,0,0,0,2020,Male
+Marine Parade,11406,736,5266,2020,Male
+North-Eastern Islands,0,0,0,2020,Male
+Novena,13153,796,5011,2020,Male
+Pasir Ris,45475,2402,15477,2020,Male
+Paya Lebar,0,0,0,2020,Male
+River Valley,2988,111,807,2020,Male
+Rochor,0,0,0,2020,Male
+Singapore River,0,0,0,2020,Male
+Straits View,0,0,0,2020,Male
+Ang Mo Kio,41357,2853,32183,2020,Female
+Bedok,68078,4725,52291,2020,Female
+Bishan,22925,1213,15858,2020,Female
+Boon Lay,0,0,0,2020,Female
+Bukit Batok,41742,3181,26774,2020,Female
+Bukit Merah,38329,2031,27404,2020,Female
+Choa Chu Kang,50704,3162,31331,2020,Female
+Bukit Panjang,35380,2217,24010,2020,Female
+Jurong East,19196,1485,14835,2020,Female
+Queenstown,23799,1747,18206,2020,Female
+Jurong West,66225,3821,43267,2020,Female
+Bukit Timah,17468,974,15286,2020,Female
+Central Water Catchment,0,0,0,2020,Female
+Changi,0,0,0,2020,Female
+Changi Bay,0,0,0,2020,Female
+Tengah,0,0,0,2020,Female
+Clementi,22499,1709,17762,2020,Female
+Geylang,29119,1536,20012,2020,Female
+Hougang,61568,3687,36484,2020,Female
+Pioneer,0,0,0,2020,Female
+Punggol,45171,2798,22613,2020,Female
+Seletar,0,0,0,2020,Female
+Sembawang,27629,1857,15878,2020,Female
+Sengkang,65172,3685,37699,2020,Female
+Serangoon,30411,1925,22068,2020,Female
+Simpang,0,0,0,2020,Female
+Southern Islands,0,0,0,2020,Female
+Sungei Kadut,0,0,0,2020,Female
+Tampines,65780,4345,46772,2020,Female
+Tanglin,4723,293,3981,2020,Female
+Toa Payoh,31947,2259,22820,2020,Female
+Tuas,0,0,0,2020,Female
+Western Islands,0,0,0,2020,Female
+Western Water Catchment,0,0,0,2020,Female
+Woodlands,61252,4877,42044,2020,Female
+Yishun,56092,4037,37079,2020,Female
+Downtown Core,938,31,447,2020,Female
+Marina East,0,0,0,2020,Female
+Marina South,0,0,0,2020,Female
+Museum,0,0,0,2020,Female
+Newton,0,0,0,2020,Female
+Orchard,0,0,0,2020,Female
+Outram,4331,276,3197,2020,Female
+Kallang,25863,1782,17938,2020,Female
+Lim Chu Kang,0,0,0,2020,Female
+Mandai,0,0,0,2020,Female
+Marine Parade,10723,747,9569,2020,Female
+North-Eastern Islands,0,0,0,2020,Female
+Novena,12014,760,8461,2020,Female
+Pasir Ris,39252,2787,24843,2020,Female
+Paya Lebar,0,0,0,2020,Female
+River Valley,2383,162,1970,2020,Female
+Rochor,0,0,0,2020,Female
+Singapore River,0,0,0,2020,Female
+Straits View,0,0,0,2020,Female
