@@ -4,7 +4,7 @@
 ###########################################################################
 
 # Load Libraries ----------------------------------------------------------
-required_libraries <- c('plyr', 'magrittr', 'lubridate', 'ggplot2')
+required_libraries <- c('plyr', 'magrittr', 'lubridate', 'ggplot2', 'reshape2')
 invisible(lapply(required_libraries, require, character=TRUE))
 
 # Helper Function ---------------------------------------------------------
@@ -130,7 +130,6 @@ visits_filtered <- visits %>%
   )
 
 # Reshape the data
-library(reshape2)
 melted_data <- melt(visits_filtered, id.vars = c("Patient.ID", "date"), na.rm = TRUE)
 visits_reshaped <- dcast(melted_data, Patient.ID + date ~ variable, fun.aggregate = sum, na.rm = TRUE)
 save_data(visits_reshaped, "./int/visit_asthma_cohort.rds")
@@ -146,7 +145,6 @@ save_data(matched_data, "./int/exacerbation_matched_visit_cases.csv", "csv")
 
 
 # Merge in visit number ---------------------------------------------------
-
 asthma_cohort <- exac_2 %>% arrange(pid)
 asthma_cohort <- asthma_cohort[, "pid"] %>% unlist %>% unique
 saveRDS(asthma_cohort, "./int/asthma_cohort.rds")
